@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import html
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import ROUND_HALF_UP, Decimal
 
 from .catalog import AssetSpec
 from .market_api import MarketQuote

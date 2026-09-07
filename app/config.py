@@ -19,7 +19,7 @@ class Settings:
     log_level: str
 
     @classmethod
-    def from_env(cls) -> "Settings":
+    def from_env(cls) -> Settings:
         load_dotenv()
 
         bot_token = os.getenv("BOT_TOKEN", "").strip()
